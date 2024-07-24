@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Catálogo de Livros</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css"> </head>
+    <body>
+        <header class="col-12">
+            <nav class="navbar navbar-expand-lg col-12 p-5" id="nav">
+                <div><img src="imagens/emoji-grimace.svg" alt="" class="img-fluid" id="logo"/></div>
+                <div class="container-fluid">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sugestões</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <img src="imagens/person.svg" alt="" class="img-fluid" id="usuario"/>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="">
+            <section class="text-center d-grid align-items-center" id="sectionUm">
+                <div class="container">
+                    <h1 class="display-4">"A tecnologia move o mundo"</h1>
+                    <p class="lead">- Steve Jobs</p>
+                </div>
+            </section>
+
+            <section class="catalogo">
+                <div class="d-grid justify-content-center col-12">
+                    <h2 class="text-center p-4">Catálogo</h2>
+                    <div class="d-flex">
+                        <img class="col-2 p-2" src="imagens/filter-circle.svg" alt="" id="filter"/>
+                        <input type="text" placeholder="Pesquisar..."> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card mb-4">
+                            <img src="imagem_livro.jpg" class="card-img-top" alt="Capa do Livro">
+                            <div class="card-body">
+                                <h5 class="card-title">Título</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                                <a href="#" class="btn btn-primary">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </section>
+
+            <section class="" id="comentario">
+                <div cl id="corDois" class="col-8">
+                    <h2 class="text-center p-2">Comentário</h2>
+                    <div class="form-group p-3">
+                        <textarea class="form-control" rows="8" placeholder="Escreva seu comentário..."></textarea>
+                    </div>
+                    <button class="btn btn-primary">Enviar</button>
+                </div>
+            </section>
+
+            <section class="sobre-nos-projeto d-flex p-5" id="sobreNosProjeto">
+                <div>
+                    <h2 class="text-center">Sobre nós</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ipsa autem quae perspiciatis nobis fugiat provident, repellendus architecto enim voluptates iure sed mollitia voluptatibus deleniti asperiores doloribus, obcaecati non unde. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolore, similique deleniti voluptas earum praesentium, omnis in cum quas dolores magnam enim quasi non aspernatur? Sequi accusamus voluptates fugiat quo!</p>
+                </div>
+                <div>
+                    <h2 class="text-center">Sobre nós</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ipsa autem quae perspiciatis nobis fugiat provident, repellendus architecto enim voluptates iure sed mollitia voluptatibus deleniti asperiores doloribus, obcaecati non unde. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolore, similique deleniti voluptas earum praesentium, omnis in cum quas dolores magnam enim quasi non aspernatur? Sequi accusamus voluptates fugiat quo!</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="col-12" id="footer">
+            <p>© 2023 Todos os direitos reservados.</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

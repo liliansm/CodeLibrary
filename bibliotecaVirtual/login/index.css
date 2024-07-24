@@ -1,0 +1,50 @@
+:root{
+    --corAzulContainer: #304268;
+    --corBranco:  #ffffff;
+    --corAzulClaroLinha: #91BED4;
+    --corCinzaClaroBox:  #f5f5f5;
+    --corAzulBotao: #323C59;
+    --corCinza: #CCCCCC;
+    --corAzulMarinho: #363636;
+    --corAzulClaro: #29AAE3;
+    
+}
+body{
+    height: 350vh;
+}
+#nav{
+    background-color: var(--corAzulBotao);
+    height: 15vh;
+}
+#logo {height: 60px;}
+#usuario{height: 30px;}
+.catalogo{
+    height: 105vh;
+}
+#sectionUm{
+    background-image: url(imagens/tec2.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#comentario{
+    background-color: var(--corAzulClaro);
+    height: 60vh;
+    display: grid;
+    padding-top: 75px;
+    padding-left: 350px;
+}
+#corDois{
+    height: 350px;
+    background-color: var(--corAzulContainer);
+    border-radius: 20px;
+}
+#sobreNosProjeto{
+    height: 60vh;
+}
+
+#footer{
+    background-color: var(--corAzulBotao);
+    height: 10vh;
+    /* position: fixed; */
+}
